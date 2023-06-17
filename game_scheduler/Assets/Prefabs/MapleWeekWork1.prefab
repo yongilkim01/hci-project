@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7101040955067789239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5572460668021895921}
+  - component: {fileID: 1852122447955262347}
+  m_Layer: 0
+  m_Name: MapleWeekWork1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5572460668021895921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101040955067789239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1143.8076, y: 532.0425, z: -8.287699}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1852122447955262347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101040955067789239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80735a0b0d6fbd5489d3548da0832062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameWorkName: "\uC8FC\uAC04 \uD018\uC2A4\uD2B8"
+  workList:
+  - "\uC5D0\uB974\uB2E4 \uC2A4\uD399\uD2B8\uB7FC"
+  - "\uBC30\uACE0\uD508 \uBB34\uD1A0"
+  - "\uB4DC\uB9BC \uBE0C\uB808\uC774\uCEE4"
+  - "\uC2A4\uD53C\uB9BF \uC138\uC774\uBE44\uC5B4"
+  - "\uC5D4\uD558\uC784 \uB514\uD39C\uC2A4"
+  - "\uD504\uB85C\uD14D\uD2B8 \uC5D0\uC2A4\uD398\uB77C"
+  - "\uD5E4\uC774\uBE10"
+  - "\uD0C0\uB77D\uD55C \uC138\uACC4\uC218"
+  - "\uD06C\uB9AC\uD2F0\uC544\uC2A4"

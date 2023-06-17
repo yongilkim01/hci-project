@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4912140782559268026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8538330052362243182}
+  - component: {fileID: 7912231436793713505}
+  m_Layer: 0
+  m_Name: GameInfoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8538330052362243182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4912140782559268026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 422.7956, y: 527.1419, z: -1.5649292}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7912231436793713505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4912140782559268026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79eb3cc31329d74ab8e6e8c317083bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameIconList:
+  - {fileID: 1375952088983889170, guid: 94ccd0aafe866054292ace6058209ac3, type: 3}
+  - {fileID: 8803149665663291504, guid: 613bf20a24de6bb41a4d89efa4b74bc0, type: 3}
+  loa_name: "\uB85C\uC2A4\uD2B8 \uC544\uD06C"
+  loa_icon: {fileID: 21300000, guid: f69442c3a4017e042a1588dda88c6536, type: 3}
+  map_name: "\uBA54\uC774\uD50C\uC2A4\uD1A0\uB9AC"
+  map_icon: {fileID: 21300000, guid: 89e4e93f2f0949d4980740fffe500fde, type: 3}
+  loa_dayWorkList:
+  - {fileID: 2134640157000994445, guid: 8f9eb6c32d562164ca61e479d05c4df6, type: 3}
+  - {fileID: 2861487550489126983, guid: 05ff7a0ea8b8fe04ca91a63e86238b9b, type: 3}
+  - {fileID: 290280606645752594, guid: b417d5e0fe999b445aec2d2d682448dc, type: 3}
+  loa_weekWorkList:
+  - {fileID: 8345309492938623955, guid: 328296c6419e17d4aa237b96c655a8bb, type: 3}
+  - {fileID: 1756428196587711520, guid: a04cec6f99f8b9a4fa45433127958af9, type: 3}
+  - {fileID: 3806084496042439388, guid: e9b546be19a17f5448bb84cd40035141, type: 3}
+  loa_monthWorkList: []
+  maple_dayWorkList:
+  - {fileID: 3957741589955048572, guid: bc6b17eb51eb93341abb8b7ab123e180, type: 3}
+  - {fileID: 5571168991548689409, guid: b6e20861694bff54186fc80976ca5907, type: 3}
+  - {fileID: 9069469692927187279, guid: e8cd8ef3443ac054eaf6b4d5d27b6152, type: 3}
+  maple_weekWorkList:
+  - {fileID: 1852122447955262347, guid: 076dcfb4e03255f4ba7a02fd535e0b7f, type: 3}
+  - {fileID: 3416753465207321087, guid: 5f4cfafe4ced5024187584c2b87e1fa6, type: 3}
+  characterNumber: 5
